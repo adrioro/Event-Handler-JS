@@ -21,6 +21,23 @@
 
         <a href="#" id="link" onmouseenter="console.log(" Clicked!");">Click Me</a>
 
+        <h3>Best case: work on script or external js file.</h3>
+        <code>
+            var element = document.getElementById("link");//Or jQuery selector.
+            <br>
+            element.onclick = function() {
+            <br>
+            console.log("Whatever I want to say.")
+            <br>
+            //or
+            <br>
+            alert("Whatever I want to say.")
+            <br>
+            //etc...
+            <br>
+            }
+        </code>
+
         <script type="text/javascript" src="index.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery.min.js"></script>
